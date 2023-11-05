@@ -10,6 +10,7 @@ const Homepage = () => {
     <div className="relative h-[100vh] w-[100vw] bg-hero-site">
       <Sidebar/>                                  
       <div className="flex h-[100vh] w-[100vw] bg-black opacity-90">
+        {/* top part */}
         <div className="flex-1">
           <div className="flex flex-row justify-between items-center">
             <img src={darkLogo} alt="" className="h-28 w-28 mt-10 ml-36"/>
@@ -22,8 +23,10 @@ const Homepage = () => {
             </div>
           </div>
         </div>
+        {/* slant image part */}
         <img src={us} alt="" className="relative h-[100vh] right-0 clip-photo"/>
       </div>
+      {/* mid part with absolute position*/}
       <div className="absolute top-[30%] left-[19%] bg-white/10 backdrop-blur-lg h-[20.5rem] w-[34rem] rounded-2xl">
         <h1 className="text-white text-xl m-4">Welcome to</h1>
         <h1 className="text-white text-5xl mt-2 ml-12 font-sans font-bold">Data Analytics Club, DDUC</h1>
