@@ -10,7 +10,7 @@ const Homepage = () => {
         <div className="text-white flex-1">
           safdfas
         </div>
-        <img src={us} alt="" className="relative h-[100vh] right-0 object-cover clip-photo z-10"/>
+        <img src={us} alt="" className="relative h-[100vh] right-0 clip-photo"/>
       </div>
     </div> 
   )
