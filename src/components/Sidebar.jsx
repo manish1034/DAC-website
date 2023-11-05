@@ -5,13 +5,13 @@ import { TfiMenuAlt } from "react-icons/tfi";
 
 const Sidebar = () => {
   return (
-    <div className="h-full bg-black opacity-90 flex flex-col justify-around items-center w-[7.3rem] border-r-[0.1px] border-white/20 z-40">
+    <div className="fixed h-full flex flex-col justify-around items-center w-[7.3rem] border-r-[0.1px] border-white/20 z-40">
       <div className="flex flex-col justify-stretch mb-40 items-center">
-        <FaHome className="text-4xl text-white mb-11 mt-10"/>
-        <BsPeopleFill className="text-4xl text-white mb-11"/>
-        <MdEventAvailable className="text-4xl text-white mb-11"/>
+        <FaHome className="text-4xl text-white mb-11 mt-10 cursor-pointer"/>
+        <BsPeopleFill className="text-4xl text-white mb-11 cursor-pointer"/>
+        <MdEventAvailable className="text-4xl text-white mb-11 cursor-pointer"/>
       </div>
-      <TfiMenuAlt className="text-4xl text-white"/>
+      <TfiMenuAlt className="text-4xl text-white cursor-pointer"/>
     </div>
   )
 }
