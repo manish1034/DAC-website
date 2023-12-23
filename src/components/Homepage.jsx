@@ -7,9 +7,9 @@ import { FaSun } from "react-icons/fa";
 
 const Homepage = () => {
   return (
-    <div className="relative h-[100vh] w-[100vw] bg-hero-site">
+    <div className="relative h-[100vh] w-[100vw]">
       <Sidebar/>                                  
-      <div className="flex h-[100vh] w-[100vw] bg-black opacity-90">
+      <div className="flex h-[100vh] w-[100vw] bg-[#010a18]">
         {/* top part */}
         <div className="flex-1">
           <div className="flex flex-row justify-between items-center">
@@ -27,7 +27,7 @@ const Homepage = () => {
         <img src={us} alt="" className="relative h-[100vh] right-0 clip-photo"/>
       </div>
       {/* mid part with absolute position*/}
-      <div className="absolute top-[30%] left-[19%] bg-white/10 backdrop-blur-lg h-[20.5rem] w-[34rem] rounded-2xl">
+      <div className="absolute top-[30%] left-[19%] bg-[#1f2734] h-[20.5rem] w-[34rem] rounded-2xl">
         <h1 className="text-white text-xl m-4">Welcome to</h1>
         <h1 className="text-white text-5xl mt-2 ml-12 font-sans font-bold">Data Analytics Club, DDUC</h1>
         <h1 className="text-white text-lg m-4 font-light">where we are dedicated towards nurturing a community of data enthusiasts. Our mission is to equip members with the tools to unravel the potential of data, promoting hands-on learning, ethical analysis, and innovative problem-solving. Join us to explore the realms of data and harness its powers.</h1>
