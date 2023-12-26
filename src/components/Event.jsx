@@ -10,18 +10,23 @@ import 'swiper/css/navigation';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { img_1 } from "../assets";
+import { useContext } from "react";
+import { UserContext } from "../App";
+
 
 
 const Event = () => {
+  const theme = useContext(UserContext);
   return (
     <div className="relative h-[100vh] w-[100vw]">
       <Sidebar/>
       <div className="relative text-white flex flex-col h-[100vh] w-[100vw] bg-white dark:bg-[#010a18] justify-start">
-        <div className="text-5xl w-full text-white font-bold mt-6 text-center pl-[6rem]">Events We've Conducted</div>
+        <div className="text-5xl w-full font-bold mt-6 text-center pl-[6rem] text-black dark:text-white">Events We've Conducted</div>
         <div className="flex gap-8">
           {/* Carousel */}
           <div className="container relative right-32">
-            <h1 className="heading ml-[10rem] text-xl font-bold mt-[0rem]">Events Poster</h1>
+            <h1 className="heading ml-[10rem] text-xl font-bold mt-[0rem] text-black dark:text-white">Events Poster</h1>
+              {theme==="dark"?
               <Swiper
                 effect={'coverflow'}
                 grabCursor={true}
@@ -76,6 +81,60 @@ const Event = () => {
                   <div className="swiper-pagination"></div>
                 </div>
               </Swiper>
+              :<Swiper
+                effect={'coverflow'}
+                grabCursor={true}
+                centeredSlides={true}
+                loop={true}
+                slidesPerView={'auto'}
+                coverflowEffect={{
+                  rotate: 0,
+                  stretch: 0,
+                  depth: 250,
+                  modifier: 5,
+                }}
+                pagination={{ 
+                  el: '.swiper-pagination', 
+                  clickable: true,
+                  renderBullet: function (index, className) {
+                  return `<span class="${className}" style="background-color: #025fc4; font-size: 5rem"></span>`;
+                }}}
+                navigation={{
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                  clickable: true,
+                }}
+                modules={[EffectCoverflow, Pagination, Navigation]}
+                className="swiper_container"
+              >
+                <SwiperSlide>
+                  <img src={img_1} alt="slide_image" className=" object-cover" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={img_1} alt="slide_image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={img_1} alt="slide_image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={img_1} alt="slide_image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={img_1} alt="slide_image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={img_1} alt="slide_image" />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img src={img_1} alt="slide_image" />
+                </SwiperSlide>
+
+                <div className="slider-controler">
+                  <FaArrowLeft className="text-xl text-[#084db8] relative left-[-1%] swiper-button-prev"/>
+                  <FaArrowRight className="rext-xl text-[#084db8] relative swiper-button-next"/>
+                  <div className="swiper-pagination"></div>
+                </div>
+              </Swiper>}
           </div> 
           {/* Content  */}
           <div className="flex flex-col h-[26rem] w-[19rem] bg-[#025fc4] mr-[8rem] mt-[5rem] rounded-xl">
