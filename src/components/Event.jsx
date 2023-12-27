@@ -13,8 +13,6 @@ import { img_1 } from "../assets";
 import { useContext } from "react";
 import { UserContext } from "../App";
 
-
-
 const Event = () => {
   const theme = useContext(UserContext);
   return (

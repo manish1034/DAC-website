@@ -11,18 +11,18 @@ const Quiz = () => {
         <div className="text-black dark:text-white text-5xl font-bold mt-6 text-center">Quiz For Test</div>
         <div className="flex flex-row justify-between">
           <div className="flex flex-col">
-            <div className="flex flex-col justify justify-start gap-8 h-[21rem] w-[22rem] bg-[#0e1624] rounded-xl ml-[15rem] mt-14">
+            <div className="flex flex-col justify justify-start gap-8 h-[21rem] w-[22rem] bg-[#dfe8f6] dark:bg-[#0e1624] rounded-xl ml-[15rem] mt-14">
               <div className="w-full text-center">
-                <h1 className="text-2xl font-semibold text-start ml-9 mb-2 mt-6">Name</h1>
-                <input className="py-[0.2rem] bg-[#262d39] placeholder:opacity-20 placeholder:font-semibold rounded-md pl-2 w-[18rem]" placeholder="Enter your name"/>
+                <h1 className="text-2xl font-semibold text-start ml-9 mb-2 mt-6 text-black dark:text-white">Name</h1>
+                <input className="py-[0.2rem] bg-white dark:bg-[#262d39] placeholder:font-semibold placeholder:text-[#c4c4c4] dark:placeholder:text-[#3b424d] rounded-md pl-2 w-[18rem]" placeholder="Enter your name"/>
               </div>
               <div className="w-full text-center">
-                <h1 className="text-2xl font-semibold text-start ml-9 mb-2">E-mail</h1>
-                <input className="py-[0.2rem] bg-[#262d39] placeholder:opacity-20 placeholder:font-semibold rounded-md pl-2 w-[18rem]" placeholder="Enter your email address"/>
+                <h1 className="text-2xl font-semibold text-start ml-9 mb-2 text-black dark:text-white">E-mail</h1>
+                <input className="py-[0.2rem] bg-white dark:bg-[#262d39] placeholder:text-[#c4c4c4] dark:placeholder:text-[#3b424d]  placeholder:font-semibold rounded-md pl-2 w-[18rem]" placeholder="Enter your email address"/>
               </div>
               <div className="w-full text-center">
-                <h1 className="text-2xl font-semibold text-start ml-9 mb-2">Phone</h1>
-                <input className="py-[0.2rem] bg-[#262d39] placeholder:opacity-20 placeholder:font-semibold rounded-md pl-2 w-[18rem]" placeholder="Enter your phone"/>
+                <h1 className="text-2xl font-semibold text-start ml-9 mb-2 text-black dark:text-white">Phone</h1>
+                <input className="py-[0.2rem] bg-white dark:bg-[#262d39] placeholder:text-[#c4c4c4] dark:placeholder:text-[#3b424d]  placeholder:font-semibold rounded-md pl-2 w-[18rem]" placeholder="Enter your phone"/>
               </div>
             </div>
             <h1 className="text-sm font-bold text-[#7687a2] ml-[15.2rem] mt-4">Note :- enter your details before taking the quiz</h1>
@@ -30,8 +30,8 @@ const Quiz = () => {
           </div>
           <div className="flex flex-col justify-around">
             <div className="flex-col justify-start gap-4 text-start">
-              <h1 className="font-bold text-xl -ml-16 mt-10 text-center">What the quiz is all About?</h1>
-              <ul className="list-disc w-[29rem] mr-16 text-md font-light mt-9">
+              <h1 className="font-bold text-xl -ml-16 mt-10 text-center text-black dark:text-white">What the quiz is all About?</h1>
+              <ul className="list-disc w-[29rem] mr-16 text-md mt-9 text-black dark:text-white">
                 <li><span className="font-bold">Practical Application: </span>Test your ability to apply data analysis concepts in real-world.</li>
                 <li><span className="font-bold">Problem-Solving Skills:</span> Enhance analytical thinking through hands-on problem-solving.</li>
                 <li><span className="font-bold">Adaptability: </span> Tailored for all skill levels, providing an inclusive learning experience.</li>
@@ -45,7 +45,7 @@ const Quiz = () => {
             <div className="flex justify-center">
               <img src={darkLogo} alt="" className="h-28 w-28 mt-12 -ml-16"/>
             </div>
-              <h1 className="text-sm font-bold text-[#7687a2] -mb-10 ml-10 font-bold">copyright © dataanalyticsclub All Rights Reserved 2024</h1>
+              <h1 className="text-sm font-bold text-[#7687a2] -mb-10 ml-10">copyright © dataanalyticsclub All Rights Reserved 2024</h1>
           </div>
         </div>
       </div>
