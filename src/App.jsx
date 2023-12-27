@@ -1,6 +1,6 @@
 import { useState, useEffect,createContext } from "react";
 import { Route, Routes } from "react-router-dom";
-import { Homepage, About, Event, Gallery, Quiz } from "./components";
+import { Homepage, About, Event, Gallery, Quiz, Questions } from "./components";
 
 export const UserContext = createContext();
 export const UserrContext = createContext();
@@ -38,6 +38,7 @@ const App = () => {
           <Route path="/event" element={<Event/>}/>
           <Route path="/gallery" element={<Gallery/>}/>
           <Route path="/quiz" element={<Quiz/>}/>
+          <Route path="/questions" element={<Questions/>}/>
       </Routes>
         </UserrContext.Provider>
       </UserContext.Provider>
