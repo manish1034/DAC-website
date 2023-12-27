@@ -29,9 +29,9 @@ const Questions = () => {
                     <div className='text-2xl text-black dark:text-[#3b424d] h-[3.5rem] w-[14rem] font-bold bg-[#dfe8f6] dark:bg-[#0e1624] shadow-md rounded-full text-start p-2 pl-5'>A. option A</div>
                 </div>
                 <div className='flex justify-start ml-[22rem] gap-5 mt-14'>
-                    <div className='h-[3rem] w-[3rem] bg-[#00fff7] rounded-lg text-center pt-[0.4rem] text-2xl text-black font-bold'>1</div>
-                    <div className='h-[3rem] w-[3rem] bg-[#00fff7] rounded-lg text-center pt-[0.4rem] text-2xl text-black font-bold'>2</div>
-                    <div className='h-[3rem] w-[3rem] bg-[#7687a2] rounded-lg text-center pt-[0.4rem] text-2xl text-black font-bold'>3</div>
+                    <div className='h-[3rem] w-[3rem] bg-[#084db8] dark:bg-[#00fff7] rounded-lg text-center pt-[0.4rem] text-2xl text-white dark:text-black font-bold'>1</div>
+                    <div className='h-[3rem] w-[3rem] bg-[#084db8] dark:bg-[#00fff7] rounded-lg text-center pt-[0.4rem] text-2xl text-white dark:text-black font-bold'>2</div>
+                    <div className='h-[3rem] w-[3rem] bg-[#7687a2] rounded-lg text-center pt-[0.4rem] text-2xl text-white dark:text-black font-bold'>3</div>
                     <div className='h-[3rem] w-[3rem] bg-inherit rounded-lg text-center pt-[0.4rem] text-2xl text-[#3b424d] font-bold border-[2px] border-black/30 dark:border-[#7687a2]'>4</div>
                     <div className='h-[3rem] w-[3rem] bg-inherit rounded-lg text-center pt-[0.4rem] text-2xl text-[#3b424d] font-bold border-[2px] border-black/30 dark:border-[#7687a2]'>5</div>
                     <div className='h-[3rem] w-[3rem] bg-inherit rounded-lg text-center pt-[0.4rem] text-2xl text-[#3b424d] font-bold border-[2px] border-black/30 dark:border-[#7687a2]'>6</div>

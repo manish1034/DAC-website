@@ -11,7 +11,7 @@ const Quiz = () => {
         <div className="text-black dark:text-white text-5xl font-bold mt-6 text-center">Quiz For Test</div>
         <div className="flex flex-row justify-between">
           <div className="flex flex-col">
-            <div className="flex flex-col justify justify-start gap-8 h-[21rem] w-[22rem] bg-[#dfe8f6] dark:bg-[#0e1624] rounded-xl ml-[15rem] mt-14">
+            <div className="flex flex-col justify justify-start gap-8 h-[21rem] w-[22rem] bg-[#dfe8f6] dark:bg-[#0e1624] rounded-xl ml-[15rem] mt-14 shadow-[4px_4px_10px_#00000070]">
               <div className="w-full text-center">
                 <h1 className="text-2xl font-semibold text-start ml-9 mb-2 mt-6 text-black dark:text-white">Name</h1>
                 <input className="py-[0.2rem] bg-white dark:bg-[#262d39] placeholder:font-semibold placeholder:text-[#c4c4c4] dark:placeholder:text-[#3b424d] rounded-md pl-2 w-[18rem]" placeholder="Enter your name"/>
