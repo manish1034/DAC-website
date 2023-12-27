@@ -6,14 +6,6 @@
     clip-path: polygon(16% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
-/* *,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-} */
 
 :root {
   --primary: #00fff7;
@@ -21,24 +13,6 @@
   --bg: #010a18;
 }
 
-/* ::-webkit-scrollbar-thumb {
-  border-radius: 1rem;
-  background: #797979;
-  transition: all 0.5s ease-in-out;
-} */
-
-/* ::-webkit-scrollbar-thumb:hover {
-  background: #222224;
-}
-
-::-webkit-scrollbar-track {
-  background: #f9f9f9;
-} */
-
-/* body {
-  font-size: 1.6rem;
-  background: var(--bg);
-} */
 
 .container {
   max-width: 40rem;
@@ -49,7 +23,6 @@
 }
 
 .heading {
-  /* padding: 0rem 0; */
   margin-top: 6rem;
   font-size: 3rem;
   text-align: start;

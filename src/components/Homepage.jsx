@@ -39,7 +39,7 @@ const Homepage = () => {
         <img src={us} alt="" className="relative h-[100vh] right-0 clip-photo"/>
       </div>
       {/* mid part with absolute position*/}
-      <div className="absolute top-[30%] left-[19%] bg-[#dfe8f6] dark:bg-[#1f2734] h-[20.5rem] w-[34rem] rounded-2xl shadow-md dark:shadow-none">
+      <div className="absolute top-[30%] left-[19%] bg-[#dfe8f6] dark:bg-[#1f2734] h-[20.5rem] w-[34rem] rounded-2xl shadow-[2px_5px_8px_#00000070] dark:shadow-none">
         <h1 className="text-[#084db8] dark:text-white text-xl m-4">Welcome to</h1>
         <h1 className="text-[#084db8] dark:text-white text-5xl mt-2 ml-12 font-sans font-bold">Data Analytics Club, DDUC</h1>
         <h1 className="text-[#010a18] dark:text-white text-lg m-4 ">where we are dedicated towards nurturing a community of data enthusiasts. Our mission is to equip members with the tools to unravel the potential of data, promoting hands-on learning, ethical analysis, and innovative problem-solving. Join us to explore the realms of data and harness its powers.</h1>

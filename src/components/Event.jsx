@@ -108,25 +108,25 @@ const Event = () => {
                 className="swiper_container"
               >
                 <SwiperSlide>
-                  <img src={img_1} alt="slide_image" className=" object-cover" />
+                  <img src={img_1} alt="slide_image" className="shadow-2xl" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={img_1} alt="slide_image" />
+                  <img src={img_1} alt="slide_image" className="shadow-2xl" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={img_1} alt="slide_image" />
+                  <img src={img_1} alt="slide_image" className="shadow-2xl" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={img_1} alt="slide_image" />
+                  <img src={img_1} alt="slide_image" className="shadow-2xl" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={img_1} alt="slide_image" />
+                  <img src={img_1} alt="slide_image" className="shadow-2xl" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={img_1} alt="slide_image" />
+                  <img src={img_1} alt="slide_image" className="shadow-2xl" />
                 </SwiperSlide>
                 <SwiperSlide>
-                  <img src={img_1} alt="slide_image" />
+                  <img src={img_1} alt="slide_image" className="shadow-2xl" />
                 </SwiperSlide>
 
                 <div className="slider-controler">

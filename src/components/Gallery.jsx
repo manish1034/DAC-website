@@ -16,10 +16,10 @@ const Gallery = () => {
             </div>
             {/* Photos */}
             <div className='flex gap-5 justify-start mt-[0.5rem]'>
-              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg'/>
-              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg'/>
-              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg'/>
-              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg'/>
+              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg object-cover shadow-xl'/>
+              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg object-cover shadow-xl'/>
+              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg object-cover shadow-xl'/>
+              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg object-cover shadow-xl'/>
             </div>
           </div>
           <div className='flex flex-col gap-4'>
@@ -30,10 +30,10 @@ const Gallery = () => {
             </div>
             {/* Photos */}
             <div className='flex gap-5 justify-start mt-[0.5rem]'>
-              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg'/>
-              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg'/>
-              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg'/>
-              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg'/>
+              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg object-cover shadow-xl'/>
+              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg object-cover shadow-xl'/>
+              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg object-cover shadow-xl'/>
+              <img src={img_1} className='h-[12rem] w-[17.5rem] rounded-lg object-cover shadow-xl'/>
             </div>
           </div>
         </div>
