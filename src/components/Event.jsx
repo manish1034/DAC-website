@@ -16,9 +16,9 @@ import { UserContext } from "../App";
 const Event = () => {
   const theme = useContext(UserContext);
   return (
-    <div className="relative h-[100vh] w-[100vw]">
+    <div className="w-full">
       <Sidebar/>
-      <div className="relative text-white flex flex-col h-[100vh] w-[100vw] bg-white dark:bg-[#010a18] justify-start">
+      <div className="relative text-white h-[100vh] flex flex-col bg-white dark:bg-[#010a18] justify-start">
         <div className="text-5xl w-full font-bold mt-6 text-center pl-[6rem] text-black dark:text-white">Events We've Conducted</div>
         <div className="flex gap-8">
           {/* Carousel */}

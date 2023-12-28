@@ -13,9 +13,9 @@ const Homepage = () => {
   const handleThemeSwitch = useContext(UserrContext);
 
   return (
-    <div className="relative h-[100vh] w-[100vw]">
+    <div className="h-full w-full">
       <Sidebar/>                                  
-      <div className="flex h-[100vh] w-[100vw] bg-white dark:bg-[#010a18]">
+      <div className="flex bg-white dark:bg-[#010a18]">
         {/* top part */}
         <div className="flex-1">
           <div className="flex flex-row justify-between items-center">

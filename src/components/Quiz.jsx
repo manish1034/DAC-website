@@ -5,9 +5,9 @@ import Sidebar from "./Sidebar";
 
 const Quiz = () => {
   return (
-    <div className="relative h-[100vh] w-[100vw]">
+    <div className="w-full">
       <Sidebar/>
-      <div className="relative flex flex-col h-[100vh] w-[100vw] bg-white dark:bg-[#010a18] justify-start text-white">
+      <div className="relative h-[100vh] flex flex-col bg-white dark:bg-[#010a18] justify-start text-white">
         <div className="text-black dark:text-white text-5xl font-bold mt-6 text-center">Quiz For Test</div>
         <div className="flex flex-row justify-between">
           <div className="flex flex-col">

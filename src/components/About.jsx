@@ -7,9 +7,9 @@ import { linkedin } from "../assets";
 var Name = [Name, Name, Name, Name];
 const About = () => {
   return (
-    <div className="relative h-[100vh] w-[100vw]">
+    <div className="w-full">
       <Sidebar/>
-      <div className="relative flex flex-col h-[100vh] w-[100vw] bg-white dark:bg-[#010a18] justify-start">
+      <div className="relative flex flex-col h-[100vh] bg-white dark:bg-[#010a18] justify-start">
         <div className="text-black dark:text-white text-5xl font-bold mt-6 text-center">Meet The Team</div>
         {/* DoWnParT DIscRiption */}
         <div className="flex gap-5">

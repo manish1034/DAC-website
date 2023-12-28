@@ -3,9 +3,9 @@ import { img_1 } from "../assets";
 
 const Gallery = () => {
   return (
-    <div className="relative h-[100vh] w-[100vw]">
+    <div className="w-full">
       <Sidebar/>
-      <div className="relative flex flex-col h-[100vh] w-[100vw] bg-white dark:bg-[#010a18] justify-start text-white">
+      <div className="relative flex flex-col h-[100vh] bg-white dark:bg-[#010a18] justify-start text-white">
         <div className='flex flex-col justify-normal mt-6 pl-[10rem]'>
           <h1 className="text-black dark:text-white text-5xl font-bold text-center mr-[6rem]">Gallery</h1>
           <div className='flex flex-col gap-4'>
