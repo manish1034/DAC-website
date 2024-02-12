@@ -14,6 +14,9 @@ import { useContext } from "react";
 import { UserContext } from "../App";
 
 const Event = () => {
+
+  
+
   const theme = useContext(UserContext);
   return (
     <div className="w-full">
