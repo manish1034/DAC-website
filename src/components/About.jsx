@@ -17,7 +17,7 @@ const About = () => {
     const fetchData = async() => {
       try{
         const response = await axios.get("http://localhost:3000/api/team",{ 
-          Headers: {
+          headers: {
             Authorization: `Bearer ${token}`
           }
         })
