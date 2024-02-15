@@ -17,7 +17,6 @@ import axios from "axios";
 
 const Event = () => {
   const theme = useContext(UserContext);
-  const token = "ywOD1sidz3zhpOZf9BDsTqqQJ8vLUA4syWCGykj8tvPOQmKdLdM3fc49sQQZ2oU6";
   const [data, setData] = useState([]);
   const [activeSlide, setActiveSlide] = useState(0);
   const swiperRef = useRef(null);
@@ -27,7 +26,7 @@ const Event = () => {
       try{
         const response = await axios.get("http://localhost:3000/api/events",{ 
           headers: {
-            Authorization: `Bearer ${token}`
+            Authorization: `Bearer ${import.meta.env.VITE_APP_TOKEN}`
           }
         })
         setData(response.data);
@@ -81,9 +80,8 @@ const Event = () => {
                 className="swiper_container"
                 onSlideChange={(swiper) => handleSlideChange(swiper)}
               >
-               {data.map((item, index) => (
+                {data.map((item, index) => (
                 <SwiperSlide key={index}>
-                  <div className="text-white">{index}</div>
                   <img src={item.image} alt="slide_image" className=" object-cover" />
                 </SwiperSlide>
                 ))}
@@ -96,8 +94,6 @@ const Event = () => {
               
           </div> 
           {/* Content  */}
-          {/* {data.length > 0 && (
-              <> */}
           <div className="flex flex-col h-[26.5rem] w-[19rem] bg-[#025fc4] mr-[8rem] mt-[5rem] rounded-xl">
             <h1 className="mt-3 text-center text-[2rem] max-w-sm font-bold">{data[activeSlide]?.name}</h1>
             <h1 className="mt-2 text-center text-3xl w-full font-bold">{data[activeSlide]?.date}</h1>

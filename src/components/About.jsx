@@ -8,7 +8,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 
 const About = () => {
-  const token = "ywOD1sidz3zhpOZf9BDsTqqQJ8vLUA4syWCGykj8tvPOQmKdLdM3fc49sQQZ2oU6";
   const [data, setData] = useState([]);
 
   
@@ -17,7 +16,7 @@ const About = () => {
       try{
         const response = await axios.get("http://localhost:3000/api/team",{ 
           headers: {
-            Authorization: `Bearer ${token}`
+            Authorization: `Bearer ${import.meta.env.VITE_APP_TOKEN}`
           }
         })
         setData(response.data);
